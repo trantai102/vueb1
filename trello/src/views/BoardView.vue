@@ -1,6 +1,6 @@
 <template>
     <div>
-     ừewg   
+    board   
     </div>
 </template>
 <script>

@@ -1,7 +1,6 @@
 <script setup>
 import { RouterView } from 'vue-router'
-// import Home from './views/HomeView.vue'
-import SidebarMenu from './components/organisms/SidebarMenu.vue'
+import SidebarMenu from './components/layout/SidebarMenu.vue'
 </script>
 
 <template>

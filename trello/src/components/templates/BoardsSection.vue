@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import HeaderBoard from '../organisms/HeaderBoard.vue';
+import HeaderBoard from '../layout/HeaderBoard.vue';
 import { defineComponent, ref } from 'vue';
 
 export default defineComponent({
