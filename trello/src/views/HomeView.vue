@@ -1,12 +1,10 @@
 <template>
-    <div class="flex flex-row">
-       <SidebarMenu/>
+    <div class="w-full">
        <BoardsSection/>
     </div>
 </template>
 
 <script setup>
-import SidebarMenu from '../components/organisms/SidebarMenu.vue'
 import BoardsSection from '../components/templates/BoardsSection.vue'
 </script>
 

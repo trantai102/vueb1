@@ -1,13 +1,13 @@
 <script setup>
-import Home from './views/HomeView.vue'
+import { RouterView } from 'vue-router'
+// import Home from './views/HomeView.vue'
+import SidebarMenu from './components/organisms/SidebarMenu.vue'
 </script>
 
 <template>
-  <div class="">
-    <header>
-
-    </header>
-    <Home/>
+   <div class="flex flex-row">
+    <SidebarMenu/>
+    <RouterView />
   </div>
 </template>
 

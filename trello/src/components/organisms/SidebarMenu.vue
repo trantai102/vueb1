@@ -11,6 +11,7 @@
     </n-space>
 </template>
 <script>
+
 import { h, defineComponent } from "vue";
 import { NIcon } from "naive-ui";
 import {
@@ -56,6 +57,7 @@ export default defineComponent({
         };
     }
 });
+
 </script>
 <style lang="">
 
