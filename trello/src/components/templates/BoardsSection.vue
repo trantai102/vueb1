@@ -25,7 +25,6 @@ export default defineComponent({
         HeaderBoard,
     },
     setup() {
-        // Define a reactive reference
         const value = ref(null);
 
         return {
@@ -36,5 +35,5 @@ export default defineComponent({
 </script>
 
 <style scoped>
-/* Add any scoped styles here */
+
 </style>
